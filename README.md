@@ -29,7 +29,7 @@ a new ubuntu guide
     
     Solution: N/A
     
-    Project: stm32
+    Project: N/A
     
     Note: N/A
     
@@ -40,8 +40,8 @@ a new ubuntu guide
 ~/.gitconfig：
    
     [user]
-    	name = lxy
-    	email = lxy0371@sina.com
+    	name = lewis
+    	email = abc@gmail.com
     [alias]
     	st = status
     	ci = commit
@@ -56,7 +56,7 @@ a new ubuntu guide
     [core]
     	pager = less -x1,5
     [gitreview]
-    	username = luxy
+    	username = lewis
     [credential]
     	helper = store
 
