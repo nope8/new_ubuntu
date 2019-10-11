@@ -15,7 +15,7 @@ a new ubuntu guide
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 100
     sudo apt-get install gcc-8
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 100
-    sudo update-alternatives --query gcc	//查询系统中安装有哪些版本
+    sudo update-alternatives --query gcc	//query installed gcc version 
 
 #### git config
 
