@@ -1,14 +1,14 @@
 # new_ubuntu
 a new ubuntu guide
-#### 安装软件
+#### install software
 
     sudo apt-get install -y openssh-server vim git meld cmake gtags net-tools exuberant-ctags
 
-#### 安装搜狗输入法
+#### install sougou input method
 
     
 
-#### 更新gcc
+#### update gcc
     sudo add-apt-repository ppa:ubuntu-toolchain-r/test
     sudo apt-get update 
     sudo apt-get install g++-8
@@ -17,7 +17,7 @@ a new ubuntu guide
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 100
     sudo update-alternatives --query gcc	//查询系统中安装有哪些版本
 
-#### git
+#### git config
 
 ~/.git_commit_template：
 
@@ -59,4 +59,6 @@ a new ubuntu guide
     	username = luxy
     [credential]
     	helper = store
+
+#### config vim
 
